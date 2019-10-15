@@ -2,62 +2,61 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<!-- header -->
+
 	<header>
-		
-		<div class="container">	
-				<h1><strong>John Carlo B. Rodiriguez</strong></h1>
-
-			    <nav>
-					<ul>
-						<li><a href="index.html">Personal Information</a></li>
-						<li><a href="Educ.html">Educational Background</a></li>
-						<li><a href="Portfolio.html">Portfolio</a></li>
-					</ul>
-				</nav>
-		 </div>	
+    <div class="container">
+      <div id="head">
+          <nav>
+            <h3 ><strong class="name"><a href="index.html">John Carlo B. Rodiriguez</a> </strong></h3>
+          <ul class="topnav">
+            <li ><a href="index.html">Personal Information</a></li>
+            <li><a href="Educ.html">Educational Background</a></li>
+            <li class="current"><a href="Portfolio.html">Portfolio</a></li>
+          </ul>
+            
+        </nav>
+     </div> 
    </header>
+
    <!-- Section Picture -->
-   <section id="BackgroundPicture">
-   	<img src="images/intro-bg.png" id="into-bg" alt="Background Picture" width="800px" height="460px">
-   	<br>
-   	<img src="images/1.jpg" id="ProfilePic" alt="Profile Picture" width="180px" height="180px">
+   <div class="Picture">
+   <section>
+    <img src="images/intro-bg.png" id="BackgroundPicture" id="into-bg" alt="Background Picture" >
+    <br>
+    <img src="images/1.png" id="ProfilePic" alt="Profile Picture">
    </section>
-   <!-- Section Info -->
+</div>
+<div class="container">
 
-    <section id="Portfolio">
-   		<div class="container">
-   			<h1>Portfolio</h1>
-   				<p class="leadP">"My skills are taking and editing  pictures and viedos.I am also on graphic design like creating logo, posters, and T-shirt design.s" </p>
-
-
+<p id="leadP">"I love to take pictures, Video and graphic designing. I also make T-shirts design" </p>
+</div>
 <!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column">
+<div class="Portfolio">
+
     <div class="content">
       <img src="images/Yu.jpg" alt="Youth Unstoppable logo" style="width:100%">
       <h3>MYouth Unstoppable logo</h3>
       <p>Logo for Youth Group in our Church</p>
     </div>
   </div>
-  <div class="column">
     <div class="content">
       <img src="images/lgu.jpg" alt="LGU Poster" style="width:100%">
       <h3>Team Building Poster</h3>
       <p>Poster for Burgos town LGU team building </p>
     </div>
   </div>
-  <div class="column">
+  
     <div class="content">
       <img src="images/ant.jpg" alt="Nature" style="width:100%">
       <h3>Photography</h3>
       <p>Nature Photography</p>
     </div>
   </div>
-  <div class="column">
+  
     <div class="content">
       <img src="images/debut.jpg" alt="debut Picture" style="width:100%">
       <h3>Photography</h3>
@@ -66,11 +65,7 @@
   </div>
 </div>
 
-   			
 
-   		
-		</div>
-	</section>
-	
+<footer><p>John Carlo Rodriguez copyright &copy: 2019</p></footer>
 </body>
 </html>
