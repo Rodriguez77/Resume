@@ -36,7 +36,7 @@ header li{
   float:left;
   display:inline;
   padding: 0 10px 0 10px;
-  font-size:12px;
+  font-size:20px;
 
 
 }
@@ -50,7 +50,7 @@ header .topnav{
 header #head h3{
   margin:0;
   display:inline;
- font-size:16px;
+ font-size:20px;
 
 }
 header a:hover{
@@ -72,11 +72,8 @@ header a:hover{
 
 #ProfilePic {
 position: absolute;
-    top: -100px;
-    bottom: -450px;
-    left: -99px;
-    right: -99px;
-    margin: auto;
+ margin-top: -12%;
+ margin-left: 43%;   
   height: 200px;
   width: 200px;
 
@@ -85,23 +82,19 @@ position: absolute;
 
 
 
-
-
-
-
-
 /*Portfolio*/
 
 
 .content {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   float: left;
   width: 600px;
   margin-left: 45px;
 }
 .content:hover {
-  border: 1px solid #777;
+  border: 2px solid #FFD700;
+
 }
 .content img {
   width: 100%;
@@ -114,22 +107,61 @@ div.content p, h3 {
   text-align: center;
 
 }
+/*index content*/
+/*info*/
+#Info2{
+  text-align: center;
+  color:#ffd11a;
+  float: center;
+  margin-top: 0%;
+
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: Arial;
+  font-variant:small-caps;
+}
+#Info3{
+  background:#ffd11a;
+  float: center;
+  padding: 5px;
+}
+#highlight{
+   font-size: 27px;
+  font-style: normal;
+}
+
+
+
 
 /*laad p*/
-#leadP{
-  font-size: 18px;
+.leadP{
+  
   text-align: center;
-  padding:30px;
-border-bottom: #665200 6px solid;
+  margin-top: 15px;
+  padding:1.5px;
+  border-bottom: #665200 6px solid;
   color:black;
-  background:#ffd11a
-
-
+  background:#ffd11a;
+ 
 }
+
+#lead1{
+ font-weight:bolder;
+ letter-spacing: 2px;
+  font-size: 20px
+}
+#lead2{
+  font-style: italic;
+  font-size: 18px
+}
+
 /*list info*/
 .Information{
   list-style: none;
   margin-left: 50px;
+  float:left;
 }
 .Information li {
   padding: 0 0 1px 0;
@@ -152,17 +184,51 @@ margin-left: 10px;
 }
 
 
-/*list educ*/
+
+/*skills*/
+
+#skills{
+  float: right;
+  margin-top: -22%;
+  margin-right: 45%;
+}
 
 
+
+.skillscontainer{
+  width: 500%; 
+  background-color: #ebebe0;
+
+}
+
+.skillscontainer:hover {
+  border: 2px solid #ffd11a;
+
+}
+.skills {
+  text-align: right;
+  font-weight: bold;
+  padding-top: 1px; 
+  padding-bottom: 1px; 
+  color: black; 
+}
+
+.html {width: 60%; background-color: #ff3300;} /* Green */
+.css {width: 60%; background-color: #0000ff;} /* Blue */
+.ps {width: 80%; background-color: #66c2ff;} /* Red */
+.pr {width: 70%; background-color: #6b00b3;} /* Dark Grey */
+
+#skills p{
+font-size: 15px;
+font-weight: bolder;
+color: white;
+}
 
 
 
 footer{
   padding:15px;
-  
   color:black;
-  
   text-align: center;
     clear: both;
     position: relative;
